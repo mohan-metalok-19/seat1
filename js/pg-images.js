@@ -11,7 +11,7 @@ function genPgCol(leatherr, objectt, conn) {
       const rowDiv = document.createElement('div');
       rowDiv.className = 'color-1 para-text';
       colorDiv.appendChild(rowDiv);
-  
+      
       for (let i = 1; i <= imagesPerRow; i++) {
         const colorNumber = (row - 1) * imagesPerRow + i;
         const divElement = document.createElement('div');
@@ -34,9 +34,7 @@ function genPgCol(leatherr, objectt, conn) {
                 changeBaseColor(seat[objectt], config.baseColors.leather.pn[`pn${colorNumber}`]);
             });
             imageElement.src = `./images/color/pn/pn-${colorNumber}.png`;
-            pElement.textContent = `PN ${colorNumber}`;
-
-
+            pElement.textContent = `PN ${colorNumber}`; 
         }
          
         divElement.appendChild(imageElement);

@@ -1689,44 +1689,44 @@ var config = {
                     id: ""
                 }
             },
-            na: {
-                na1: {
+            pg: {
+                pg1: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_1.jpg",
                     id: ""
                 },
-                na2: {
+                pg2: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_2.jpg",
                     id: ""
                 },
-                na3: {
+                pg3: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_3.jpg",
                     id: ""
                 },
-                na4: {
+                pg4: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_4.jpg",
                     id: ""
                 },
-                na5: {
+                pg5: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_5.jpg",
                     id: ""
                 },
-                na6: {
+                pg6: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_6.jpg",
                     id: ""
                 },
-                na7: {
+                pg7: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_7.jpg",
                     id: ""
                 },
-                na8: {
+                pg8: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_8.jpg",
                     id: ""
                 },
-                na9: {
+                pg9: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_9.jpg",
                     id: ""
                 },
-                na10: {
+                pg10: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/NA/PG_10.jpg",
                     id: ""
                 },
@@ -1775,99 +1775,99 @@ var config = {
             },
         },
         stitches: {
-            c4B1F6A: {
+            st1: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/4B1F6A.jpg",
                 id: ""
             },
-            c08C745: {
+            st2: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/08C745.jpg",
                 id: ""
             },
-            c9C4B20: {
+            st3: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/9C4B20.jpg",
                 id: ""
             },
-            c9D0102: {
+            st4: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/9D0102.jpg",
                 id: ""
             },
-            c9DA773: {
+            st5: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/9DA773.jpg",
                 id: ""
             },
-            c040E81: {
+            st6: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/040E81.jpg",
                 id: ""
             },
-            c133C2E: {
+            st7: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/133C2E.jpg",
                 id: ""
             },
-            c453B1F: {
+            st8: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/453B1F.jpg",
                 id: ""
             },
-            c697C61: {
+            st9: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/697C61.jpg",
                 id: ""
             },
-            c030403: {
+            st10: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/030403.jpg",
                 id: ""
             },
-            c052031: {
+            st11: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/052031.jpg",
                 id: ""
             },
-            c340709: {
+            st12: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/340709.jpg",
                 id: ""
             },
-            c552802: {
+            st13: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/552802.jpg",
                 id: ""
             },
-            c840301: {
+            st14: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/840301.jpg",
                 id: ""
             },
-            c999355: {
+            st15: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/999355.jpg",
                 id: ""
             },
-            cA17B1D: {
+            st16: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/A17B1D.jpg",
                 id: ""
             },
-            cA86F19: {
+            st17: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/A86F19.jpg",
                 id: ""
             },
-            cAFB8A6: {
+            st18: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/AFB8A6.jpg",
                 id: ""
             },
-            cB2EB03: {
+            st19: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/B2EB03.jpg",
                 id: ""
             },
-            cB34102: {
+            st20: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/B34102.jpg",
                 id: ""
             },
-            cD5362C: {
+            st21: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/D5362C.jpg",
                 id: ""
             },
-            cE1E6CF: {
+            st22: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/E1E6CF.jpg",
                 id: ""
             },
-            cEFAC01: {
+            st23: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/EFAC01.jpg",
                 id: ""
             },
-            cFD4702: {
+            st24: {
                 url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Stitches/FD4702.jpg",
                 id: ""
             }
