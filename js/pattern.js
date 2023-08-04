@@ -1,4 +1,3 @@
- 
   const patternData = [
     {pattern:'noPattern',label: 'No PT', imageName: 'no-pattern', no:'1'},
     {pattern:'pattern1', label: 'PT 1',  imageName: 'pt-1', no:'2' },
@@ -10,7 +9,8 @@
     {pattern:'pattern7', label: 'PT 7',  imageName: 'pt-7', no:'8' },
   ];
  
-function genPtCol(leather, object,object2,object3, con) {
+
+  function genPtCol(leather, object,object2,object3, con) {
   const colorDiv = document.createElement('div');
   colorDiv.className = 'color-div';
 
@@ -32,28 +32,21 @@ function genPtCol(leather, object,object2,object3, con) {
 
       if(leather == 'pt_ch') { 
         divElement.addEventListener('click', function() { 
-          
           changePattern(1, seat[object], seat[object2], seat[object3], config.pattern[patternData[colorNumber-1].pattern], 'ch', 1, 1, 0, 0);  
-        // console.log('here the pattern of ch', patternData[colorNumber-1].pattern)
-        // changePattern(1, seat['PATTERN2MAT'], seat['STITCHPATTERN2MAT'], seat['PATTERNDOTS2MAT'], config.pattern.noPattern, 'ch', 1, 1, 0, 0)
         });
         imageElement.src = `./images/patterns/${patternData[colorNumber-1].imageName}.png`; 
-        pElement.textContent = `${patternData[colorNumber-1].label}`;
-        // console.log('change ', changePattern);
+        pElement.textContent = `${patternData[colorNumber-1].label}`; 
       } 
       else if (leather == 'pt_fe')  { 
         divElement.addEventListener('click', function() { 
-          
           changePattern(1, seat[object], seat[object2], seat[object3], config.pattern[patternData[colorNumber-1].pattern], 'fe', 1, 1, 0, 0);  
         // console.log('here the pattern of fether', patternData[colorNumber-1].pattern)
         });
         imageElement.src = `./images/patterns/${patternData[colorNumber-1].imageName}.png`; 
         pElement.textContent = `${patternData[colorNumber-1].label}`;
-        
       }
       else if (leather == 'pt_al')  { 
         divElement.addEventListener('click', function() { 
-          
           changePattern(1, seat[object], seat[object2], seat[object3], config.pattern[patternData[colorNumber-1].pattern], 'al', 1, 1, 0, 0);  
           console.log('here the pattern of alcantra', patternData)
         });
@@ -62,7 +55,6 @@ function genPtCol(leather, object,object2,object3, con) {
       }
       else if (leather == 'pt_pg')  { 
         divElement.addEventListener('click', function() { 
-          
           changePattern(1, seat[object], seat[object2], seat[object3], config.pattern[patternData[colorNumber-1].pattern], 'al', 1, 1, 0, 0);  
           console.log('here the pattern of alcantra', patternData)
         });
@@ -71,7 +63,6 @@ function genPtCol(leather, object,object2,object3, con) {
       }
       else if (leather == 'pt_pn')  { 
         divElement.addEventListener('click', function() { 
-          
           changePattern(1, seat[object], seat[object2], seat[object3], config.pattern[patternData[colorNumber-1].pattern], 'al', 1, 1, 0, 0);  
           console.log('here the pattern of alcantra', patternData)
         });
@@ -81,15 +72,17 @@ function genPtCol(leather, object,object2,object3, con) {
       else {
 
       }
-      
       divElement.appendChild(imageElement);
       divElement.appendChild(pElement);
       rowDiv.appendChild(divElement);
     }
   }
+
   let container= document.getElementById(con);
   container.appendChild(colorDiv);
+
 }
+
 genPtCol('pt_ch', 'PATTERN1MAT','STITCHPATTERN1MAT','PATTERNDOTS1MAT','pt_ch-one-pattern-container');  
 genPtCol('pt_fe', 'PATTERN1MAT','STITCHPATTERN1MAT','PATTERNDOTS1MAT','pt_fe-one-pattern-container');  
 genPtCol('pt_al', 'PATTERN1MAT','STITCHPATTERN1MAT','PATTERNDOTS1MAT','pt_al-one-pattern-container');   
@@ -125,4 +118,3 @@ genPtCol('pt_fe', 'PATTERN6MAT','STITCHPATTERN6MAT','PATTERNDOTS6MAT','pt_fe-six
 genPtCol('pt_al', 'PATTERN6MAT','STITCHPATTERN6MAT','PATTERNDOTS6MAT','pt_al-six-pattern-container');   
 genPtCol('pt_pg', 'PATTERN6MAT','STITCHPATTERN6MAT','PATTERNDOTS6MAT','pt_pg-six-pattern-container');   
 genPtCol('pt_pn', 'PATTERN6MAT','STITCHPATTERN6MAT','PATTERNDOTS6MAT','pt_pn-six-pattern-container');   
-

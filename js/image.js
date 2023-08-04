@@ -38,53 +38,39 @@
           };
           const img = document.createElement('img');
           img.src = `./images/color/${category}/${category}${includeSeries ? '-' + colorIndex : ''}.png`;
-          img.alt = 'color';
-          // const p = document.createElement('p');
-          // p.textContent = `${category.toUpperCase()} ${colorIndex}`;
+          img.alt = 'color'; 
           const p = document.createElement('p');
           if (category === 'al') {
             p.textContent = alNames[`al${colorIndex}`];
           } else {
             p.textContent = `${category.toUpperCase()} ${colorIndex}`;
           }
-
           div.appendChild(img);
           div.appendChild(p);
           currentRow.appendChild(div);
         }
       }
     }
- function onClickPATTERN1MAT(category, colorIndex) {
-    changeBaseColor(seat['PATTERN1MAT'], config.baseColors.leather[category][`${category}${colorIndex}`]);
-  }
+ 
+
   function onClickHEADRESTMAT(category, colorIndex) {
     changeBaseColor(seat['HEADRESTMAT'], config.baseColors.leather[category][`${category}${colorIndex}`]);
   }
   function onClickWINGMAT(category, colorIndex) {
     changeBaseColor(seat['WINGMAT'], config.baseColors.leather[category][`${category}${colorIndex}`]);
   }
-  function onClickBORDERSTRIPMAT(category, colorIndex) {
-    changeBaseColor(seat['BORDERSTRIPMAT'], config.baseColors.leather[category][`${category}${colorIndex}`]);
-  }
   function onClickSEATMAT(category, colorIndex) {
     changeBaseColor(seat['SEATMAT'], config.baseColors.leather[category][`${category}${colorIndex}`]);
   }
-
   function onClickSTITCHESMAT(category, colorIndex) {
-    changeBaseColor(seat['STITCHESMAT'], config.baseColors.stitches[`${category}${colorIndex}`]); 
-    // console.log("clicked")
+    changeBaseColor(seat['STITCHESMAT'], config.baseColors.stitches[`${category}${colorIndex}`]);  
   }
   function changePatternStitches(category, colorIndex) {
-    changePatternStitchesColor(config.baseColors.stitches[`${category}${colorIndex}`]); 
-    // console.log("clicked one ................")
+    changePatternStitchesColor(config.baseColors.stitches[`${category}${colorIndex}`]);  
   }
-  
-  
-  
+
   generateColorOptions('st', totalStichesColors, 'body-stitches',  onClickSTITCHESMAT, true, 4, 6); 
   generateColorOptions('st', totalStichesColors, 'pattern-stitches', changePatternStitches, true, 4, 6); 
-  
-  
   
   generateColorOptions('ch', totalCHColors, 'head-rest-ch-container', onClickHEADRESTMAT , true, 4, 5);
   generateColorOptions('fe', totalFEColors, 'head-rest-fe-container', onClickHEADRESTMAT , true, 4, 5);
@@ -100,21 +86,5 @@
   generateColorOptions('fe', totalFEColors, 'seat-back-fe-container', onClickSEATMAT , true,4, 5);
   generateColorOptions('pg', totalPGColors, 'seat-back-pg-container',onClickSEATMAT,true,4,3 );
   generateColorOptions('pn', totalPNColors, 'seat-back-pn-container',onClickSEATMAT,true,4,3); 
-
-  
-
-  generateColorOptions('ch', totalCHColors, 'section-one-ch-container', onClickPATTERN1MAT , true,4, 5); 
-  generateColorOptions('fe', totalFEColors, 'section-one-fe-container', onClickPATTERN1MAT , true, 4, 5);
-  generateColorOptions('pg', totalFEColors, 'section-one-pg-container', onClickPATTERN1MAT , true, 4, 3);
-  generateColorOptions('pn', totalPNColors, 'pnColorOptions5',onClickPATTERN1MAT,true,4,3); 
-  generateColorOptions('al', totalALColors, 'alColorOptions', onClickPATTERN1MAT, true, 4, 4); 
-  
-  generateColorOptions('ch',totalBorderColors, 'borderColorOptions', onClickBORDERSTRIPMAT , true, 4, 5);
-  generateColorOptions('fe', totalBorderColors, 'borderColorOptions2', onClickBORDERSTRIPMAT , true, 4, 5);
-   
-  generateColorOptions('pg', totalPGColors, 'pgColorOptions3',onClickBORDERSTRIPMAT,true,4,3 );
-  generateColorOptions('pn', totalPNColors, 'pnColorOptions3',onClickBORDERSTRIPMAT,true,4,3);
-  generateColorOptions('pg', totalPGColors, 'pgColorOptions5',onClickPATTERN1MAT,true,4,3 );
-
 
 })();
