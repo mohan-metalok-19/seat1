@@ -1628,66 +1628,66 @@ var config = {
                 },
             },
             al: {
-                al1110: {
+                al1: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/1045.jpg",
+                    id: ""
+                },
+                al2: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/1110.jpg",
                     id: ""
                 },
-                al2911: {
+                al3: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2911.jpg",
                     id: ""
                 },
-                al2930: {
+                al4: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2930.jpg",
                     id: ""
                 },
-                al2934: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2934.jpg",
-                    id: ""
-                },
-                al2940: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2940.jpg",
-                    id: ""
-                },
-                al2957: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2957.jpg",
-                    id: ""
-                },
-                al2974: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2974.jpg",
-                    id: ""
-                },
-                al4097: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/4097.jpg",
-                    id: ""
-                },
-                al6833: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/6833.jpg",
-                    id: ""
-                },
-                al9002: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/9002.jpg",
-                    id: ""
-                },
-                al7586: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/7586.jpg",
-                    id: ""
-                },
-                al4996: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/4996.jpg",
-                    id: ""
-                },
-                al3322: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/3322.jpg",
-                    id: ""
-                },
-                al2932: {
+                al5: {
                     url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2932.jpg",
                     id: ""
                 },
-                al1045: {
-                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/1045.jpg",
+                al6: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2934.jpg",
                     id: ""
-                }
+                },
+                al7: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2940.jpg",
+                    id: ""
+                },
+                al8: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2957.jpg",
+                    id: ""
+                },
+                al9: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/2974.jpg",
+                    id: ""
+                }, 
+                al10: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/3322.jpg",
+                    id: ""
+                },
+                al11: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/4097.jpg",
+                    id: ""
+                },
+                al12: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/4996.jpg",
+                    id: ""
+                },
+                al13: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/6833.jpg",
+                    id: ""
+                },
+                al14: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/7586.jpg",
+                    id: ""
+                },
+                al15: {
+                    url: "https://s3.amazonaws.com/cetus.metalok.io/configurator/BaseColors/Leather/AL/9002.jpg",
+                    id: ""
+                },   
             },
             pg: {
                 pg1: {
